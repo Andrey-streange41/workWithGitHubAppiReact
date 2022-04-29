@@ -23,10 +23,18 @@ class StarItem extends React.Component{
         }
 
     render(){
-        return  <section>
+        if(this.state.data.length>0){
+            return  <section>
                     <img className="imgRound" src={imgSrc} alt="" />
                     <span> {this.state.data.length} </span>
                 </section>
+        }
+        else{
+            return  <section>
+                    <img className="imgRound" src={imgSrc} alt="" />
+                    <span> 0 </span>
+                </section>
+        }
     }
 }
 

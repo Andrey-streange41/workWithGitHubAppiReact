@@ -11,10 +11,18 @@ class ForkItem extends React.Component{
 
 
     render(){
-        return  <section>
+        if(this.props.forks>0){
+            return  <section>
                     <img className="imgRound" src={imgSrc} alt="" />
                     <span> {this.props.forks} </span>
                 </section>
+        }
+        else{
+            return  <section>
+                    <img className="imgRound" src={imgSrc} alt="" />
+                    <span> 0 </span>
+                </section>
+        }
     }
 }
 
