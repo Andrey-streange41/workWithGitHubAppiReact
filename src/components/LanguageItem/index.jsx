@@ -28,14 +28,14 @@ class LanguageItem extends React.Component{
 
     render(){
         if(this.state.data[this.props.language] !== undefined){
-            return  <section>
+            return  <section className="langFlexBox">
                          <div className="divRound" style={{backgroundColor:this.state.data[this.props.language].color}}></div> 
                          <span> {this.props.language} </span>
                     </section>
         }
         else{
-            return <section>
-                        <div className="divRound" ></div> 
+            return <section className="langFlexBox">
+                        <div className="divRound bord" ></div> 
                         <span> 0 </span>
                     </section>
         }

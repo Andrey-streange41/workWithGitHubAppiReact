@@ -1,5 +1,5 @@
 import React from "react";
-// import imgSrc from "../TitleProjItem/";
+import imgSrc from "../TitleProjItem/gitBook2.png";
 import "../TitleProjItem/style.css"
 
 
@@ -11,8 +11,10 @@ class TitleProjItem extends React.Component{
     }
 
     render(){
-        return  <section >
-                    <img className="" src="" alt="" />
+        return  <section className="flex-container">
+                    <div className="gitBook">
+                        <img  src={imgSrc} alt="" />
+                    </div>
                     <h3>{this.props.title}</h3>
                 </section>
     }

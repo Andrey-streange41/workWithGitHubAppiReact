@@ -12,14 +12,21 @@
     margin-top: 15px;
     border: solid 1px white;
     display: block;
+    
 }
 
 
 .addInfo{
     display: flex;
+    margin-top: 7vh;
+    width: 70%;
+    justify-content: space-between;
+    margin-left: 5%;
 }
 
 p{
-    align-items: center;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 10%;
     max-width: 90%;
 }
