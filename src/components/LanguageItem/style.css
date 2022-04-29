@@ -1,0 +1,13 @@
+section{
+    display: flex;
+    align-items: center;
+}
+
+.imgRound{
+    width: 25px;
+    height: 25px;
+}
+
+*{
+    box-sizing: border-box;
+}

@@ -1,0 +1,14 @@
+
+.gitCardContainer{
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    box-sizing: border-box;
+    border: solid 1px white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+*{
+    box-sizing: border-box;
+}

@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.cardContainer{
+    width: 20%;
+    background-color: white;
+    height: 30vh;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: 15px;
+    border: solid 1px white;
+    display: block;
+}
+
+
+.addInfo{
+    display: flex;
+}
+
+p{
+    align-items: center;
+    max-width: 90%;
+}
